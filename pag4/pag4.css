@@ -1,0 +1,52 @@
+body {
+  position: relative;
+  width: 360px;
+  height: 600px;
+  background: #1c2b2d;
+  left: 31%;
+}
+h3 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 137px;
+  top: 24px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #e6d5b8;
+}
+.posicao,
+.nome,
+.valor {
+  position: absolute;
+  height: 528px;
+  
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+
+  color: #99a8b2;
+}
+
+.posicao{
+    width: 27px;
+    left:20px;
+    text-align: right;
+
+}
+.nome{
+    width:85px ;
+    left: 72px;
+}
+.valor{
+    width: 41px;
+    left: 282px;
+    text-align: right;
+
+}
